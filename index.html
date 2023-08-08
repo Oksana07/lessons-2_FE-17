@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Урок-2</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">logo</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Основні групи та види html елементів</h1>
+            <ol>
+                <li><a href="">Службові теги</a></li>
+                <li><a href="#teg">Теги групування контенту</a></li>
+                <li><a href="">Текстові елементи</a></li>
+                <li><a href="">Посилання (anchor)</a></li>
+                <li><a href="#btn">Кнопка​</a></li>
+                <li><a href="#list">Списки</a></li>
+                <li><a href="">Медіа файли</a></li>
+            </ol>
+        </section>
+        <!-- Теги групування контенту -->
+        <section>
+
+        </section>
+
+        <!--Текстові елементи  -->
+        <section>
+            <h1>Заголовок1</h1>
+            <h2>Заголовок2</h2>
+            <h3>Заголовок3</h3>
+            <h4>Заголовок4</h4>
+            <h5>Заголовок5</h5>
+            <h6>Заголовок6</h6>
+        </section>
+
+        <!-- Теги -->
+        <section>
+            <h2>Теги</h2>
+            <p>Тег для посилань &#10096;a/&#10095;</p>
+        </section>
+
+        <!--  теги для форматування тексту -->
+        <section>
+            <h2 id="teg">Теги для форматування тексту</h2>
+            <b>Текст жирний</b>
+            <strong>Текст жирний (для скріндерів)</strong>
+            <br>
+            <i>Текст курсив</i>
+            <em>Текст курсив (для скріндерів)</em>
+            <br>
+            <u>Текст з підкресленням</u>
+            <br>
+            <mark>Текст з маркером</mark>
+            <br>
+            <small>маленький текст </small>
+            <br>
+            <sub>Текст з нижнім режимом</sub>
+            <br>
+            <sup>Текст з верхнім режимом</sup>
+            <hr>
+            <p>
+                <b>Lorem</b> <i>ipsum</i> <mark>dolor</mark> <small>s</small>it amet,
+                consectetur adipisicing.
+            </p>
+            <p><time datetime="10-07-2023">10 липня 2023р</time></p>
+        </section>
+
+        <!-- Посилання (anchor) -->
+        <section>
+            <a href="./Правила_оформления_профиля_в_LinkedIn.pdf" download>Правила</a>
+        </section>
+
+        <!-- Кнопки -->
+        <section>
+            <h2 id="btn">Кнопки</h2>
+            <button type="button">button</button>
+            <button type="submit">submit</button>
+        </section>
+
+        <!-- Списки -->
+        <section>
+            <h2 id="list">Списки</h2>
+
+            <!-- Нумерований -->
+            <ol>
+                <li><a href="">посилання</a></li>
+                <li><a href="">посилання</a></li>
+            </ol>
+
+            <!-- Маркований -->
+            <ul>
+                <li>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <!--Абсолютний  -->
+                    <img src="./pexels-photo-92380.webp" alt="dog" width="200">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident nobis laudantium illum.
+                        Quibusdam iusto dicta commodi exercitationem, fugiat, nesciunt eum eaque at id culpa ut
+                        consectetur. Recusandae, assumenda officia? Minima?</p>
+                </li>
+                <li>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <!-- Локальний/відносний -->
+                    <img src="https://images.pexels.com/photos/895259/pexels-photo-895259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="dog" width="200">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident nobis laudantium illum.
+                        Quibusdam iusto dicta commodi exercitationem, fugiat, nesciunt eum eaque at id culpa ut
+                        consectetur. Recusandae, assumenda officia? Minima?</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Відео -->
+        <section>
+
+            <iframe width="600" height="480" src="https://www.youtube.com/embed/2UbIWzGsBiI" title="Знайомство GoITeens"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <!-- <video src="http://techslides.com/demos/sample-videos/small.webm" 
+                poster="./pexels-photo-92380.webp"
+                width="640" controls autoplay loop preload="auto"></video> -->
+
+            <!-- <video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls>
+                <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
+                <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+                <source src="http://techslides.com/demos/sample-videos/small.ogg" type="video/ogg" />
+            </video> -->
+
+            <!-- локально -->
+            <video poster="./pexels-photo-92380.webp" width="640" controls>
+                <source src="./502019458_K_cnt_1_r720P.mp4" type="video/webm" />
+                <source src="./502019458_K_cnt_1_r720P.mp4" type="video/ogg" />
+            </video>
+        </section>
+
+        <!-- Аудіо -->
+        <audio src="./osg_E_036.mp3" controls autoplay loop preload="auto"></audio>
+
+    </main>
+
+    <footer>
+        <div>
+            <nav>
+                <a href="">logo</a>
+            </nav>
+        </div>
+        <div>
+            <address>
+                <a href="https://goo.gl/maps/ixYhiA2Hj7mk7n2j7" target="_blank">м.Львів, вул. В.Симоненка, дім. 22, кв.
+                    22</a>
+
+                <a href="tel:+80674197820">+80674197820</a>
+
+                <a href="mailto:alex@smith.com">alex@smith.com</a>
+                <a href="https://goo.gl/maps/ixYhiA2Hj7mk7n2j7" target="_blank">м.Львів, вул. В.Симоненка, дім. 22, кв.
+                    22</a>
+
+                <a href="tel:+80674197820">+80674197820</a>
+
+                <a href="mailto:alex@smith.com">alex@smith.com</a>
+                <a href="https://goo.gl/maps/ixYhiA2Hj7mk7n2j7" target="_blank">м.Львів, вул. В.Симоненка, дім. 22, кв.
+                    22</a>
+
+                <a href="tel:+80674197820">+80674197820</a>
+
+                <a href="mailto:alex@smith.com">alex@smith.com</a>
+            </address>
+        </div>
+        <p>&#169;</p>
+    </footer>
+
+
+</body>
+
+</html>
